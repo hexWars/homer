@@ -1,0 +1,137 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/v6/search for icons options
+
+title: "Sehnsucht~"
+subtitle: "群星中转"
+logo: "logo.png"
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+
+# Optional theme customization
+theme: default
+
+# Optional theme customization (color overrrides)
+# overrrides can also be done using CSS vars 
+colors:
+  light:
+    highlight-primary: rgb(0, 122, 122)
+    highlight-secondary: rgb(0, 163, 163)
+    highlight-hover: rgb(0, 204, 204)
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    # highlight-primary: "#3367d6"
+    # highlight-secondary: "#4285f4"
+    # highlight-hover: "#5a95f5"
+    highlight-primary: rgb(87, 31, 175)
+    highlight-secondary: rgb(109, 40, 217)
+    highlight-hover: rgb(138, 83, 225)
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+# Optional message
+message:
+  #url: https://b4bz.io
+  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  title: "Good !"
+  icon: "fa fa-grin"
+  content: "欢迎来到群星中转站！ <br /> 这里汇聚了我的一些快捷通道，祝来到这里的^_^在网络世界愉快畅游"
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+  - name: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/hexWars"
+    target: "_blank" # optional html a tag target attribute
+  - name: "X"
+    icon: "fa-brands fa-twitter"
+    url: "https://x.com/Fhexw"
+  # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
+  # see url field and assets/additional-page.yml.dist used in this example:
+  #- name: "another page!"
+  #  icon: "fas fa-file-alt"
+  #  url: "#additional-page" 
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "Applications"
+    icon: "fas fa-cloud"
+    items:
+      - name: "blog"
+        subtitle: "博客"
+        tag: "site"
+        url: "https://blog.sehnsucht.top/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "rss"
+        subtitle: "freshrss"
+        tag: "site"
+        url: "https://rss.sehnsucht.top/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "nginx board"
+        subtitle: "nginx proxy manager"
+        tag: "site"
+        url: "https://ng.sehnsucht.top/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "uptime kuma"
+        subtitle: "uptime kuma 监控"
+        tag: "site"
+        url: "https://uk.sehnsucht.top/"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Tech"
+    icon: "fas fa-code-branch"
+    items:
+      - name: "csdiy"
+        subtitle: "计算机自学指南"
+        target: "_blank"
+        tag: "site"
+        url: "https://csdiy.wiki/"
+      - name: "roadmap"
+        subtitle: "计算机学习路线图"
+        target: "_blank"
+        tag: "site"
+        url: "https://roadmap.sh/"
+  - name: "Links"
+    icon: "fas fa-lines-leaning"
+    items:
+      - name: "matters"
+        subtitle: "matter写作社区"
+        target: "_blank"
+        tag: "site"
+        url: "https://matters.town/"
+      - name: "积薪"
+        subtitle: "积薪博客社区"
+        target: "_blank"
+        tag: "site"
+        url: "https://firewood.news/"
+      - name: "mastodon"
+        subtitle: "elk"
+        target: "_blank"
+        tag: "site"
+        url: "https://elk.zone/"
+      - name: "装备前线"
+        subtitle: "elk"
+        target: "_blank"
+        tag: "site"
+        url: "https://www.zfrontier.com/"
+      
+
