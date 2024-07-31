@@ -52,7 +52,7 @@ message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "Good !"
   icon: "fa fa-grin"
-  content: "欢迎来到群星中转站！ <br /> 这里汇聚了我的一些快捷通道，祝来到这里的^_^在网络世界愉快畅游"
+  content: "欢迎来到群星中转站！ <br /> 这里汇聚了我的一些快捷通道，祝来到这里的uu在网络世界畅游愉快"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
@@ -113,6 +113,11 @@ services:
   - name: "Links"
     icon: "fas fa-lines-leaning"
     items:
+      - name: "medium"
+        subtitle: "Everyone has a story to tell"
+        target: "_blank"
+        tag: "site"
+        url: "https://medium.com/"
       - name: "matters"
         subtitle: "matter写作社区"
         target: "_blank"
@@ -129,7 +134,7 @@ services:
         tag: "site"
         url: "https://elk.zone/"
       - name: "装备前线"
-        subtitle: "elk"
+        subtitle: "zfrontier"
         target: "_blank"
         tag: "site"
         url: "https://www.zfrontier.com/"
